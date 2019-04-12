@@ -72,7 +72,7 @@
         <div class="card-body text-center">
           <p class="card-text" style="color:#000">Search an existing member</p>
           </div>
-          <a href="finance_club_search.php" style="background-color: rgb(96,189,174)" target="_blank">More</a>
+          <a href="finance_club_form.php" style="background-color: rgb(96,189,174)" target="_blank">More</a>
       </div>
     </div>
     </div>
