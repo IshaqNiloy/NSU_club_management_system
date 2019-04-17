@@ -12,14 +12,18 @@
 	$skills = $_POST['skills'];
 	$hobby = $_POST['hobby'];
 
-	$query = "INSERT INTO pharmaceutical_club (name, ID, phone, blood_group, dept, address, interested_in, skill, hobby) 
+	$query = "INSERT INTO pharmaceuticals_club (name, ID, phone, blood_group, dept, address, interested_in, skill, hobby) 
 		VALUES ('".$name."', '".$ID."', '".$phone."', '".$blood_group."','".$department."', '".$address."', '".$interested_in."', '".$skills."', '".$hobby."')";
 			  
-              
+    $_SESSION['message'] = "Record has been saved!";
+	$_SESSION['msg_type'] = "success";
+
+	header("location:pharmaceutical_club_form.php");
+
 	if ($conn->query($query) === TRUE) {
 		echo "<script>alert('New record created successfully')</script>";
 	} else {
-		echo "<script>alert('Error:')</script> ";
+		echo "<script>alert('Error')</script> ";
 	}
 	$conn->close();	
 ?> 

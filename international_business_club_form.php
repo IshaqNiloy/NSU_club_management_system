@@ -17,17 +17,17 @@
 <body style = "background-image: linear-gradient(to bottom right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);">
 
 <nav class="navbar navbar-inverse navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="nevigation.html">NSU Club Management</a>
+  <a class="navbar-brand" href="international_business_club.php">NSU Club Management</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#" target="_blank">Search</a>
+        <a class="nav-link" href="international_business_club_search.php">Search</a>
       </li>
       <li class= "nav-item" id="nav-log-out">
-        <a class="nav-link" href="#">Log out</a>
+        <a class="nav-link" href="index.php">Log out</a>
       </li> 
     </ul>
   </div>  
