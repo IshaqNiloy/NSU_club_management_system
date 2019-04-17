@@ -14,7 +14,10 @@
 
 	$query = "INSERT INTO art_and_photography_club (name, ID, phone, blood_group, dept, address, interested_in, skill, hobby) 
 		VALUES ('".$name."', '".$ID."', '".$phone."', '".$blood_group."','".$department."', '".$address."', '".$interested_in."', '".$skills."', '".$hobby."')";
-			  
+	$_SESSION['message'] = "Record has been saved!";
+	$_SESSION['msg_type'] = "success";
+
+	header("location:art_and_photography_club_form.php");		  
               
 	if ($conn->query($query) === TRUE) {
 		echo "<script>alert('New record created successfully')</script>";
