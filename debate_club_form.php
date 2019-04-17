@@ -17,17 +17,17 @@
 <body style="background-image: linear-gradient(to bottom right, #ff0844 0%, #ffb199 100%)">
 
 <nav class="navbar navbar-inverse navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="nevigation.html">NSU Club Management</a>
+  <a class="navbar-brand" href="debate_club.php">NSU Club Management</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#" target="_blank">Search</a>
+        <a class="nav-link" href="debate_club_search.php">Search</a>
       </li>
       <li class= "nav-item" id="nav-log-out">
-        <a class="nav-link" href="#">Log out</a>
+        <a class="nav-link" href="index.php">LogOut</a>
       </li> 
     </ul>
   </div>  
@@ -39,7 +39,7 @@
   <div class="row">
     <div class="col-sm-3"></div>
     <div class="col-sm-6" style="background-color: rgb(0,0,0,0.5)">
-    <form action="marketing_club_savedata.php" method="post">
+    <form action="debate_club_savedata.php" method="post">
     <div class="row">
         <div class="col-sm-12">
           <p style="font-weight: bold; color: #fff;letter-spacing: 1px; margin-top: 15px">Name:</p>
