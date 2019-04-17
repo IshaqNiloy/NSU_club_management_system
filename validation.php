@@ -20,11 +20,14 @@ $result = mysqli_query($con, $s);
 $num = mysqli_num_rows($result);
 
 if($num == 1) {
-	$_SESSION['username'] = $name;
-	header('location:navigation.html');
+	$result = $con->query("SELECT * FROM userregistration WHERE user = '$name' AND password = '$pass'");
+	while($row = $result->fetch_assoc()){
+		$page =  $row['page'];
+	}
+	header('location:'.$page);
 }
 else {
-	header('location:login.html');
+	header('location:index.php');
 }
 
 // if (!$con) {

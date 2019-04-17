@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <title>Young Entrepreneurs Society</title>
   <meta charset="utf-8">
@@ -17,17 +17,14 @@
 <body>
 
 <nav class="navbar navbar-inverse navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="nevigation.html">NSU Club Management</a>
+  <a class="navbar-brand" href="#">NSU Club Management</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#" target="_blank">Search</a>
-      </li>
       <li class= "nav-item" id="nav-log-out">
-        <a class="nav-link" href="index.php">Log out</a>
+        <a class="nav-link" href="index.php">LogOut</a>
       </li> 
     </ul>
   </div>  
@@ -45,7 +42,7 @@
         <div class="card-body text-center">
           <p class="card-text" style="color:#000">Add a new member</p>
           </div>
-          <a href="young_entrepreneurs_society_form.php" style="background-color: #00cc66;" target="_blank">More</a>
+          <a href="young_entrepreneurs_society_form.php" style="background-color: #00cc66;">More</a>
       </div>
       <div class="card">
         <div class="header" style="background-color: #ff6666;">
@@ -54,16 +51,7 @@
         <div class="card-body text-center">
           <p class="card-text" style="color:#000">Delete an exixting member</p> 
           </div>
-          <a href="young_entrepreneurs_society_delete.php" style="background-color: #ff6666;" target="_blank">More</a>
-      </div>
-      <div class="card">
-        <div class="header" style="background-color: #66b2ff">
-          <img src="images/update1.png"><p style="font-size: 26px; margin-top: 6%" target="_blank">Update<br>Members</p>
-        </div>
-        <div class="card-body text-center">
-          <p class="card-text" style="color:#000">Update the information of an existing member</p>
-          </div>
-          <a href="young_entrepreneurs_society_update.php" style="background-color: #66b2ff;">More</a>
+          <a href="young_entrepreneurs_society_delete.php" style="background-color: #ff6666;">More</a>
       </div>
       <div class="card" style="background-color: ">
         <div class="header" style="background-color: rgb(96,189,174)">
@@ -72,7 +60,25 @@
         <div class="card-body text-center">
           <p class="card-text" style="color:#000">Search an existing member</p>
           </div>
-          <a href="young_entrepreneurs_society_form.php" style="background-color: rgb(96,189,174)" target="_blank">More</a>
+          <a href="young_entrepreneurs_society_search.php" style="background-color: rgb(96,189,174)">More</a>
+      </div>
+             <div class="card">
+        <div class="header" style="background-color: rgb(252,173,52)">
+          <img src="images/event.png"><p style="font-size: 26px; margin-top: 6%">Add<br>Events</p>
+        </div>
+        <div class="card-body text-center">
+          <p class="card-text" style="color:#000">Enter the name, date, allocated money and total expenses of an event</p>
+          </div>
+          <a href="young_entrepreneurs_society_event_form.php" style="background-color: rgb(252,173,52);">More</a>
+      </div>
+      <div class="card">
+        <div class="header" style="background-color: #66b2ff">
+          <img src="images/event_search.png"><p style="font-size: 26px; margin-top: 6%">Search<br>Event</p>
+        </div>
+        <div class="card-body text-center">
+          <p class="card-text" style="color:#000">Search an event to know the date, allocated money and total expense</p>
+          </div>
+          <a href="young_entrepreneurs_society_event_search.php" style="background-color: #66b2ff;">More</a>
       </div>
     </div>
     </div>
