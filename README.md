@@ -1,1 +1,2 @@
-# NSU_club_management_system
+# NSU Club Management System
+<img src = "club.PNG">
